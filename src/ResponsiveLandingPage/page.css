@@ -1,0 +1,12 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+ list-style: none;
+ transition: all 0.5s ease;
+}
+.homepage,.services,.products,.signup
+{
+    margin-top: 110px;
+}

@@ -1,0 +1,97 @@
+.header-container
+{
+ 
+height: 100vh;
+}
+video
+{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+.content
+{
+
+position: absolute;
+width: 100%;
+top: 50%;
+transform: translateY(-50%);
+text-align: center;
+color: #fff;
+z-index: -1;
+}
+.content h1
+{
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+.content p
+{
+    font-size: 2.5rem;
+    word-spacing: 3px;
+}
+.header-btns .btns
+{
+    padding: 11px 36px;  
+background: transparent;
+border: 1px solid #fff;
+color:#fff;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 16px;
+margin-left: 20px;
+margin-top: 15px;
+cursor: pointer;
+
+}
+
+.btns:nth-child(1):hover
+{
+    background-color: #fff;
+    color:black;
+    
+}
+
+.btns:nth-child(2){
+    background-color: #fff;
+    color: black;
+    padding: 11px 30px;
+}
+@media (max-width:909px) 
+{
+    .content h1
+    {
+        font-size: 3.5rem;
+        font-weight: 900;   
+    }  
+    .content p
+{
+    font-size: 1.5rem;
+    word-spacing: 3px;
+}
+.header-btns .btns
+{
+    font-size: 14px;
+    padding: 8px 15px;
+}
+}
+@media (max-width:570px) 
+{
+
+    .content h1
+    {
+        font-size: 1.5rem;
+        font-weight: 700;   
+    }  
+    .content p
+{
+    font-size: 1.5rem;
+    word-spacing: 3px;
+}
+.btns:nth-child(1)
+{
+    padding: 8px 30px;
+}
+}

@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+  
+}
+body
+{
+transition:  0.2s ease;
+}
+.card-container
+{
+    
+    display: flex;
+    justify-content: space-around;
+    background-color:ghostwhite;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+     padding: 20px;
+}
+.card
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+
+    flex-basis: 25%;
+    background-color: #fff;
+    padding: 30px;
+
+ margin-bottom: 20px;
+}
+.card-number
+{
+    display: inline-block;
+    border: 1px solid #aaa;
+    width: 25px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 50%;
+    height: 25px;
+   line-height: 25px;
+}
+.card-author
+{
+display: block;
+margin-top: 10px;
+font-size: 20px;
+text-transform: capitalize;
+letter-spacing: 0.5px;
+}
+.card-title
+{
+    font-family: "Cormorant Garamond", serif;
+    display: block;
+    font-size: 3rem;
+    letter-spacing: 0.5px;
+    margin: 8px 0;
+    text-transform: capitalize;
+}
+.card-description
+{
+    font-weight: 300;
+    line-height: 22px;
+    word-spacing: 0.5px;
+    font-family: "Lato", sans-serif;
+}
+.read::before
+{
+    background-color: #b8bddd;
+    content: "";
+    height: 1px;
+    width:75%;
+    display: inline-block;
+    position: relative;
+    top: -6px;
+}
+.read
+{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    margin: 5px 0 20px;
+    position: relative;
+    text-align: right;
+    text-transform: uppercase;
+}
+.img-card {
+    max-width: 100%;
+    height: auto;
+  }
+  .card-tag
+  {
+      float: right;
+      border: 1px solid #aaa;
+      padding: 5px;
+  }
+  .navbar
+  {
+      background-color: #fff;
+      padding: 10px;
+     margin: auto;
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      border-bottom: 2px solid crimson;
+      border-bottom-left-radius: 10px;
+      
+  }
+  .button
+  {
+     font-size: 16px;
+      
+      background-color:#fff;
+      padding: 15px;
+      outline: none;
+      border: none;
+      margin-left: 10px;
+    
+    }
+    .button:hover
+    {
+        
+    color: red;  
+ }
